@@ -30,4 +30,30 @@ public class ShoppingListItemsController : ControllerBase
 
         return CreatedAtAction(nameof(GetItems), new { id = item.Id }, item);
     }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateItem(int id, ShoppingItems item)
+    {
+        if (id != item.Id)
+            return BadRequest();
+
+        _context.Entry(item).State = EntityState.Modified;
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteItem(int id)
+    {
+        var item = await _context.ShoppingItems.FindAsync(id);
+
+        if (item == null)
+            return NotFound();
+
+        _context.ShoppingItems.Remove(item);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
 }

@@ -10,7 +10,19 @@ builder.Services.AddDbContext<ShoppingListDbContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("ReactPolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000") // React dev server
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+
+app.UseCors("ReactPolicy");
 
 if (app.Environment.IsDevelopment())
 {

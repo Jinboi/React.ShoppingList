@@ -44,5 +44,42 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "React.ShoppingList.Server.Controllers.ShoppingListItemsController",
+    "Method": "UpdateItem",
+    "RelativePath": "api/ShoppingListItems/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "React.ShoppingList.Server.Models.ShoppingItems",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "React.ShoppingList.Server.Controllers.ShoppingListItemsController",
+    "Method": "DeleteItem",
+    "RelativePath": "api/ShoppingListItems/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
