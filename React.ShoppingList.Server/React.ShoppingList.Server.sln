@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React.ShoppingList.Server", "React.ShoppingList.Server\React.ShoppingList.Server.csproj", "{9F415C1E-F496-41D9-A4F3-FB2A9045CCDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F415C1E-F496-41D9-A4F3-FB2A9045CCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F415C1E-F496-41D9-A4F3-FB2A9045CCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F415C1E-F496-41D9-A4F3-FB2A9045CCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F415C1E-F496-41D9-A4F3-FB2A9045CCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A79F696C-8F63-4049-A076-EAFB42778CB4}
+	EndGlobalSection
+EndGlobal

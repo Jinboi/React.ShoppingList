@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "React.ShoppingList.Server.Controllers.ShoppingListItemsController",
+    "Method": "GetItems",
+    "RelativePath": "api/ShoppingListItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[React.ShoppingList.Server.Models.ShoppingItems, React.ShoppingList.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "React.ShoppingList.Server.Controllers.ShoppingListItemsController",
+    "Method": "CreateItem",
+    "RelativePath": "api/ShoppingListItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "React.ShoppingList.Server.Models.ShoppingItems",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "React.ShoppingList.Server.Models.ShoppingItems",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
