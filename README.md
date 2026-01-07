@@ -85,18 +85,18 @@ Once the Web application is running:
 - Users can delete an existing item on the list.
 - If Error message is returned, check API is running, check port running on.
 
-### Loading Page
+### Loaded Page
 
-![loading page](./_resources/pokemon-loading-image.PNG)
+![Loaded Page](./_resources/MyShopingList.png)
 
 
-### pokemon List
+### Shopping List
 
-![Pokemon list](./_resources/pokemon-loading-success.PNG)
+![Shopping list](./_resources/List.png)
 
-### Error Page
+### Crossed Off Item
 
-![error page](./_resources/pokemon-loading-fail.PNG)
+![Crossed Off Item](./_resources/checked-off.png)
 
 ## How It Works
 
