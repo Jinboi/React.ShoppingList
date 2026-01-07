@@ -87,7 +87,7 @@ Once the Web application is running:
 
 ### Loaded Page
 
-![Loaded Page](./_resources/MyShopingList.png)
+![Loaded Page](./_resources/MyShoppingList.png)
 
 
 ### Shopping List
