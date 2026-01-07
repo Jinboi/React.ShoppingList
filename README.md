@@ -1,7 +1,7 @@
-# PokemonApi
+# Shopping List
 
 <p align="center">
-  <img src="./_resources/pokemon-logo3.PNG" alt="Pokemon" />
+  <img src="./_resources/shopping-list-logo.PNG" alt="Shopping List" />
 </p>
 
 Welcome to the **pokemon** App!
