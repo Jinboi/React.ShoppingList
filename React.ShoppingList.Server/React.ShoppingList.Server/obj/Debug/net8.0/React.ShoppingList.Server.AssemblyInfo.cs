@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("React.ShoppingList.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e45c7d24fab8e2e5c1a47c92ee467daa36247bd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34ec5c2ea56dd47a0075ac1b7efdb53b1f385fd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("React.ShoppingList.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("React.ShoppingList.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

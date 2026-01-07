@@ -4442,23 +4442,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Youngwoo\\.nuget\\packages\\": {},
+    "C:\\Users\\duddn\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Youngwoo\\Documents\\MEGA\\WIP\\02-WIP\\Jan 5\\React.ShoppingList\\React.ShoppingList.Server\\React.ShoppingList.Server\\React.ShoppingList.Server.csproj",
+      "projectUniqueName": "C:\\Users\\duddn\\Documents\\GIT\\Jan 7\\React.ShoppingList\\React.ShoppingList.Server\\React.ShoppingList.Server\\React.ShoppingList.Server.csproj",
       "projectName": "React.ShoppingList.Server",
-      "projectPath": "C:\\Users\\Youngwoo\\Documents\\MEGA\\WIP\\02-WIP\\Jan 5\\React.ShoppingList\\React.ShoppingList.Server\\React.ShoppingList.Server\\React.ShoppingList.Server.csproj",
-      "packagesPath": "C:\\Users\\Youngwoo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Youngwoo\\Documents\\MEGA\\WIP\\02-WIP\\Jan 5\\React.ShoppingList\\React.ShoppingList.Server\\React.ShoppingList.Server\\obj\\",
+      "projectPath": "C:\\Users\\duddn\\Documents\\GIT\\Jan 7\\React.ShoppingList\\React.ShoppingList.Server\\React.ShoppingList.Server\\React.ShoppingList.Server.csproj",
+      "packagesPath": "C:\\Users\\duddn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\duddn\\Documents\\GIT\\Jan 7\\React.ShoppingList\\React.ShoppingList.Server\\React.ShoppingList.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Youngwoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\duddn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4467,7 +4467,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
