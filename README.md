@@ -1,7 +1,7 @@
 # Shopping List
 
 <p align="center">
-  <img src="./_resources/ShoppingListLogo.PNG" alt="Shopping List" />
+  <img src="./_resources/ShoppingListLogo.png" alt="Shopping List" />
 </p>
 
 Welcome to the **pokemon** App!
