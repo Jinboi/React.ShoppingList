@@ -4,31 +4,25 @@
   <img src="./_resources/shopping-list-logo.png" alt="Shopping List" />
 </p>
 
-Welcome to the **pokemon** App!
+Welcome to the **Shopping List** App!
 
-This is a project designed to demonstrate combining a .NET Web API with a React frontend. 
+This is a .NET and React project designed to demonstrate a full CRUD application.
 
-It allows users to view a list of pokemon from an external API!
+It allows users to view a shopping list of items from an external API and perform CRUD operatinos on them!
+
 
 ## Requirements
 
-- [x] This is an application where you should present data coming from a .NET WebAPI using React.
-- [x] Your application can only have GET requests.
-- [x] You cannot use AXIOS to fetch the data, you have to use JS Fetch API
-- [x] You should create an API of your choice, with a model representing a single table.
-- [x] One of the properties of your API's model should be imageUrl, with a link to pictures that will be shown by the react app.
-- [x] You can choose whatever ORM you want: Dapper, EF, ADO.NET.
-- [x] Your app needs to have a list of records and a page to visualise an individual record.
-- [x] Your app should show a 'Loading Data...' message while the request hasn't been completed.
-- [x] If there's a server error, the user should be informed.
+- [x] This is a CRUD Shopping List App with React and .NET Web API.
+- [x] Users should be able to cross items from the shopping-list without deleting them. You can use a IsPickedUp boolean for that.
+- [x] You should create two projects: A .NET WebApi and a React app.
+- [x] You state management libraries (i.e. Redux).
 
 ## Features
 
 - **Loading**: When the frontend application starts, it will show a Loading Data message.
 - **Error**: If there is an error when fetching the api data, it will show an Error message.
-- **List View**: When the api data has been fetched, a list of pokemon will be displayed.
-- **API Methods**: Get methods are exposed within the api application.
-- **Database Seeding**: When the backend application start, it will insert some initial data if no data is added.
+- **List View**: When the api data has been fetched, a list of pokemon will be displayed. Users can mark an item to scratch it off or create a new item to add to the list. Users can also delete an existing item.
 
 ## Technologies
 
@@ -41,7 +35,7 @@ It allows users to view a list of pokemon from an external API!
 
 ## Getting Started
 
-The InitialCreate database migration has been created. You will need to 
+The InitialCreate database migration has been created. You will need to update database. 
 
 ### Prerequisites
 
@@ -58,7 +52,7 @@ The InitialCreate database migration has been created. You will need to
 	- `git clone https://github.com/Jinboi/React.ExternalApi.git`
 
 2. Navigate to the API project directory:
-	- `cd React.PokemonApi\React.PokemonApi`
+	- `cd React.ShoppingList\React.ShoppingList.Server`
 	
 3. Configure the application:
 	- Update the connection string in `appsettings.json` if you require.
@@ -67,7 +61,7 @@ The InitialCreate database migration has been created. You will need to
 	- `dotnet build`
 
 5. Navigate to the Web project directory:
-	- `cd React.PokemonApi\react.pokemonweb`
+	- `cd React.ShoppingList.Server\shopping-list-app`
 
 6. Install dependencies:
 	- `npm install`
@@ -85,7 +79,10 @@ The InitialCreate database migration has been created. You will need to
 Once the Web application is running:
 
 - Loading Data message will show while fetch api is run.
-- View a list of pokemon.
+- View a list of shopping list.
+- Users can tick off to scractch the item on the list.
+- Users can create a new item on the list.
+- Users can delete an existing item on the list.
 - If Error message is returned, check API is running, check port running on.
 
 ### Loading Page
@@ -104,8 +101,7 @@ Once the Web application is running:
 ## How It Works
 
 - **API Integration**: Fetch is used to call the External API.
-- **Seed Data**: Seed Data will be added to the database if there is no data in the database.
 - **Data Access**: Interaction with the database is via Entity Framework Core.
 
 ---
-***Pokemon is everything!***
+***Shopping List is everything!***
