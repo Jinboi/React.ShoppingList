@@ -20,9 +20,9 @@ It allows users to view a shopping list of items from an external API and perfor
 
 ## Features
 
-- **Loading**: When the frontend application starts, it will show a Loading Data message.
-- **Error**: If there is an error when fetching the api data, it will show an Error message.
-- **List View**: When the api data has been fetched, a list of pokemon will be displayed. Users can mark an item to scratch it off or create a new item to add to the list. Users can also delete an existing item.
+- **List View**: When the api data has been fetched, a list of items will be displayed.
+- **Cross Off An Item**: Users can cross off an item. The crossed off item will be grayed out and will be moved to the bottom of the list.
+- **Remove An Item**: Users can also delete an existing item.
 
 ## Technologies
 
