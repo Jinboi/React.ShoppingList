@@ -80,7 +80,7 @@ Once the Web application is running:
 
 - Loading Data message will show while fetch api is run.
 - View a list of shopping list.
-- Users can tick off to scractch the item on the list.
+- Users can cross off an item on the list.
 - Users can create a new item on the list.
 - Users can delete an existing item on the list.
 - If Error message is returned, check API is running, check port running on.
@@ -90,13 +90,13 @@ Once the Web application is running:
 ![Loaded Page](./_resources/MyShoppingList.png)
 
 
-### Shopping List
+### Add Items
 
-![Shopping list](./_resources/List.png)
+![Add Items](./_resources/List.png)
 
-### Crossed Off Item
+### Crossed Off An Item
 
-![Crossed Off Item](./_resources/checked-off.png)
+![Crossed Off An Item](./_resources/checked-off.png)
 
 ## How It Works
 
